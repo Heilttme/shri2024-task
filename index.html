@@ -19,7 +19,9 @@
       type="text/css"
       href="reset.css"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preload"
+    as="style"
+    onload="this.rel='stylesheet'" type="text/css" href="styles.css" />
   </head>
   <body>
     <div id="app"></div>
@@ -45,8 +47,6 @@
 
     <script src="vendors/babel.min.js"></script>
     <script type="text/babel">
-        console.log(123)
-        
       function Header() {
         let [expanded, setExpanded] = React.useState(false);
         let [toggled, setToggled] = React.useState(false);
