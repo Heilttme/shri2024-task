@@ -280,7 +280,7 @@
 
         let sizes = [];
         const onSize = (size) => {
-          sizes = sizes.concat(size);
+          sizes = [...sizes, size];
         };
 
         React.useEffect(() => {
@@ -291,7 +291,7 @@
           if (newHasRightScroll !== hasRightScroll) {
             setHasRightScroll(newHasRightScroll);
           }
-        });
+        }, [sizes]);
 
         const onArrowCLick = () => {
           const scroller = ref.current.querySelector(
