@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/shri2024-task/react-gh-pages/static/css/main.301a383d.css",
-    "main.js": "/shri2024-task/react-gh-pages/static/js/main.c70bebfd.js",
-    "static/media/bg@2x.webp": "/shri2024-task/react-gh-pages/static/media/bg@2x.86f35448ef3226b5b7e4.webp",
-    "static/media/imageFromBase.webp": "/shri2024-task/react-gh-pages/static/media/imageFromBase.d1568584d77490e6e083.webp",
-    "static/media/logo.svg": "/shri2024-task/react-gh-pages/static/media/logo.12daa3e40c4e133f6548.svg",
-    "index.html": "/shri2024-task/react-gh-pages/index.html",
-    "static/media/arrow-down.svg": "/shri2024-task/react-gh-pages/static/media/arrow-down.5e46e5264685c13ed50c.svg",
-    "static/media/icon_list_m@1x.svg": "/shri2024-task/react-gh-pages/static/media/icon_list_m@1x.50808ff23063dea91cce.svg",
-    "static/media/icon_sun.svg": "/shri2024-task/react-gh-pages/static/media/icon_sun.c7d1724796f2ce6c3e02.svg",
-    "static/media/icon_sun_2.svg": "/shri2024-task/react-gh-pages/static/media/icon_sun_2.a4dd908b57fffc115065.svg",
-    "static/media/icon_temperature.svg": "/shri2024-task/react-gh-pages/static/media/icon_temperature.1f6c4da0691141e4d43a.svg",
-    "static/media/icon_temperature_2.svg": "/shri2024-task/react-gh-pages/static/media/icon_temperature_2.43e07ec01bd0089a772b.svg",
-    "static/media/icon_scheduled.svg": "/shri2024-task/react-gh-pages/static/media/icon_scheduled.db4e109ccce3dbfb16a9.svg",
-    "static/media/cloud-drizzle.svg": "/shri2024-task/react-gh-pages/static/media/cloud-drizzle.6cadd3414ad7b573f7d4.svg",
-    "main.301a383d.css.map": "/shri2024-task/react-gh-pages/static/css/main.301a383d.css.map",
-    "main.c70bebfd.js.map": "/shri2024-task/react-gh-pages/static/js/main.c70bebfd.js.map"
+    "main.css": "/static/css/main.d5914f89.css",
+    "main.js": "/static/js/main.c70bebfd.js",
+    "static/media/bg@2x.webp": "/static/media/bg@2x.86f35448ef3226b5b7e4.webp",
+    "static/media/imageFromBase.webp": "/static/media/imageFromBase.d1568584d77490e6e083.webp",
+    "static/media/logo.svg": "/static/media/logo.12daa3e40c4e133f6548.svg",
+    "index.html": "/index.html",
+    "static/media/arrow-down.svg": "/static/media/arrow-down.5e46e5264685c13ed50c.svg",
+    "static/media/icon_list_m@1x.svg": "/static/media/icon_list_m@1x.50808ff23063dea91cce.svg",
+    "static/media/icon_sun.svg": "/static/media/icon_sun.c7d1724796f2ce6c3e02.svg",
+    "static/media/icon_sun_2.svg": "/static/media/icon_sun_2.a4dd908b57fffc115065.svg",
+    "static/media/icon_temperature.svg": "/static/media/icon_temperature.1f6c4da0691141e4d43a.svg",
+    "static/media/icon_temperature_2.svg": "/static/media/icon_temperature_2.43e07ec01bd0089a772b.svg",
+    "static/media/icon_scheduled.svg": "/static/media/icon_scheduled.db4e109ccce3dbfb16a9.svg",
+    "static/media/cloud-drizzle.svg": "/static/media/cloud-drizzle.6cadd3414ad7b573f7d4.svg",
+    "main.d5914f89.css.map": "/static/css/main.d5914f89.css.map",
+    "main.c70bebfd.js.map": "/static/js/main.c70bebfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.301a383d.css",
+    "static/css/main.d5914f89.css",
     "static/js/main.c70bebfd.js"
   ]
 }
