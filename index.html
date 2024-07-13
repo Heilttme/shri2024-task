@@ -122,7 +122,7 @@
           <li ref={ref} className={"event" + (props.slim ? " event_slim" : "")}>
             <button className="event__button">
               <span
-                className={`event__icon event__icon_${props.icon}`}
+                className={`event__icon event__icon_${props.icon} lazy-background`}
                 role="img"
                 aria-label={props.iconLabel}
               ></span>
@@ -322,7 +322,7 @@
               <h2 className="section__title section__title-header section__main-title">
                 Главное
               </h2>
-              <div className="hero-dashboard">
+              <div className="hero-dashboard lazy-background">
                 <div className="hero-dashboard__primary">
                   <h3 className="hero-dashboard__title">Привет, Геннадий!</h3>
                   <p className="hero-dashboard__subtitle">
@@ -487,6 +487,54 @@
         </>
       );
     </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          let lazyBackgrounds = [].slice.call(document.querySelectorAll(".lazy-background"));
+      
+          if ("IntersectionObserver" in window) {
+              let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+                  entries.forEach(function(entry) {
+                      if (entry.isIntersecting) {
+                          let lazyBackground = entry.target;
+                          lazyBackground.style.backgroundImage = "url('assets/imageFromBase.png')";
+                          lazyBackground.classList.remove("lazy-background");
+                          lazyBackgroundObserver.unobserve(lazyBackground);
+                      }
+                  });
+              });
+      
+              lazyBackgrounds.forEach(function(lazyBackground) {
+                  lazyBackgroundObserver.observe(lazyBackground);
+              });
+          } else {
+              let lazyLoadThrottleTimeout;
+              function lazyLoad() {
+                  if (lazyLoadThrottleTimeout) {
+                      clearTimeout(lazyLoadThrottleTimeout);
+                  }
+      
+                  lazyLoadThrottleTimeout = setTimeout(function() {
+                      let scrollTop = window.pageYOffset;
+                      lazyBackgrounds.forEach(function(bg) {
+                          if (bg.offsetTop < (window.innerHeight + scrollTop)) {
+                              bg.style.backgroundImage = "url('assets/imageFromBase.png')";
+                              bg.classList.remove('lazy-background');
+                          }
+                      });
+                      if (lazyBackgrounds.length == 0) {
+                          document.removeEventListener("scroll", lazyLoad);
+                          window.removeEventListener("resize", lazyLoad);
+                          window.removeEventListener("orientationChange", lazyLoad);
+                      }
+                  }, 20);
+              }
+      
+              document.addEventListener("scroll", lazyLoad);
+              window.addEventListener("resize", lazyLoad);
+              window.addEventListener("orientationChange", lazyLoad);
+          }
+      });
+      </script>
     <script src="vendors/babel.min.js" defer></script>
   </body>
 </html>
