@@ -113,7 +113,7 @@
           if (onSize) {
             onSize({ width, height });
           }
-        });
+        }, [onSize]);
 
         return (
           <li ref={ref} className={"event" + (props.slim ? " event_slim" : "")}>
@@ -280,7 +280,7 @@
               new URLSearchParams(location.search).get("tab") || "all"
             );
           }
-        });
+        }, [initedRef.current]);
 
         const onSelectInput = (event) => {
           setActiveTab(event.target.value);
