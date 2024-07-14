@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/css/main.da067893.css",
-    "main.js": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/js/main.2a3aa153.js",
+    "main.css": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/css/main.c5307713.css",
+    "main.js": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/js/main.808cfd02.js",
     "static/media/bg@2x.png": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/bg@2x.b23d48f2e17f0ebd4d42.png",
+    "static/media/imageFromBase.webp": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/imageFromBase.d1568584d77490e6e083.webp",
     "static/media/icon_sun.svg": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/icon_sun.4cc3e966fdf03fcc2fe4.svg",
     "static/media/arrow-down.svg": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/arrow-down.60fc682f8c0f5090796f.svg",
     "static/media/icon_sun_2.svg": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/icon_sun_2.5dfee338cdd081d52122.svg",
@@ -13,11 +14,11 @@
     "static/media/icon_list_m@1x.svg": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/icon_list_m@1x.93983e09c410833de99e.svg",
     "static/media/icon_scheduled.svg": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/icon_scheduled.7da758857d472bd9356f.svg",
     "index.html": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/index.html",
-    "main.da067893.css.map": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/css/main.da067893.css.map",
-    "main.2a3aa153.js.map": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/js/main.2a3aa153.js.map"
+    "main.c5307713.css.map": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/css/main.c5307713.css.map",
+    "main.808cfd02.js.map": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/js/main.808cfd02.js.map"
   },
   "entrypoints": [
-    "static/css/main.da067893.css",
-    "static/js/main.2a3aa153.js"
+    "static/css/main.c5307713.css",
+    "static/js/main.808cfd02.js"
   ]
 }
