@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/css/main.e1222b42.css",
-    "main.js": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/js/main.37899eb6.js",
+    "main.js": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/js/main.28ff67f4.js",
     "static/media/bg@2x.png": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/bg@2x.b23d48f2e17f0ebd4d42.png",
     "static/media/icon_sun.svg": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/icon_sun.4cc3e966fdf03fcc2fe4.svg",
     "static/media/arrow-down.svg": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/arrow-down.60fc682f8c0f5090796f.svg",
@@ -14,10 +14,10 @@
     "static/media/icon_scheduled.svg": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/media/icon_scheduled.7da758857d472bd9356f.svg",
     "index.html": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/index.html",
     "main.e1222b42.css.map": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/css/main.e1222b42.css.map",
-    "main.37899eb6.js.map": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/js/main.37899eb6.js.map"
+    "main.28ff67f4.js.map": "/shri2024-task/reactttttttttttttttttttttttttttttttttttttttttt/build/static/js/main.28ff67f4.js.map"
   },
   "entrypoints": [
     "static/css/main.e1222b42.css",
-    "static/js/main.37899eb6.js"
+    "static/js/main.28ff67f4.js"
   ]
 }
