@@ -133,7 +133,9 @@ export function Main() {
   });
   useEffect(() => {
     for (let i = 0; i < 6; ++i) {
-      setTabs((prev) => ({...prev, all: {...prev.all, items: prev.all.items.concat(prev.all.items)}}))
+      setTimeout(() => {
+        setTabs((prev) => ({...prev, all: {...prev.all, items: prev.all.items.concat(prev.all.items)}}))
+      }, 200 * i)
       // TABS.all.items = TABS.all.items.concat(TABS.all.items);
     }
   }, [])
@@ -171,7 +173,7 @@ export function Main() {
     if (newHasRightScroll !== hasRightScroll) {
       setHasRightScroll(newHasRightScroll);
     }
-  });
+  }, [sizes]);
 
   const onArrowCLick = () => {
     const scroller = ref.current.querySelector(
